@@ -3,7 +3,7 @@
 
 // uncomment next line and comment out *colors[] variable to work with pywal
 
-//#include "/home/pial/.cache/wal/colors-wal-dmenu.h"
+#include "/home/pial/.cache/wal/colors-wal-dmenu.h"
 
 static int topbar = 1;                      /* -b  option; if 0, dmenu appears at bottom     */
 static int centered = 0;                    /* -c option; centers dmenu on screen */
@@ -15,7 +15,7 @@ static const char *fonts[] = {
 	"monospace:size=10"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
-static const char *colors[SchemeLast][2] = {
+//static const char *colors[SchemeLast][2] = {
     //[>     fg         bg       <]
 
     //[SchemeNorm] = { "#bbbbbb", "#222222" },
@@ -31,10 +31,10 @@ static const char *colors[SchemeLast][2] = {
     //[SchemeOut] = { "#000000", "#00ffff" },
 
 
-    [SchemeNorm] = { "#cccccc", "#282a36" },
-    [SchemeSel] = { "#ffffff", "#74438f" },
-    [SchemeOut] = { "#000000", "#00ffff" },
-};
+    //[SchemeNorm] = { "#cccccc", "#282a36" },
+    //[SchemeSel] = { "#ffffff", "#74438f" },
+    //[SchemeOut] = { "#000000", "#00ffff" },
+//};
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
 /* -h option; minimum height of a menu line */
